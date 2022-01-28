@@ -1,0 +1,15 @@
+@import url(standard_flex.css);
+*{
+	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+p{
+	padding-bottom:1em;
+}
+img{
+	max-width: 100%;
+	height: auto;	
+	display: block;
+}
