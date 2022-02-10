@@ -11,7 +11,7 @@ let arrString = arr.map(() => {
   console.log(arrString)
 // Øvelse 3: Lav navne med stort
 let arrLow = ["hans", "peter", "gringo"]
-let arrUp = arrLow.map(Name => Name.toUpperCase());
+let arrUp = arrLow.map(name => name.toUpperCase());
 console.log(arrUp);
 // Øvelse 4: Lav et array med navnene
 let arrFamous = [
@@ -41,9 +41,9 @@ let arrFamousNames = arrFamous.map(Names => Names.name);
 console.log(arrFamousNames);
 
 //Øvelse 5: Er du gammel nok?
-let arrOldEnough = arrFamous.map(OldEnough => {
-   if (OldEnough.age > 18) {return OldEnough.name + " er gammel nok "};
-   if (OldEnough.age < 18) {return OldEnough.name + " er ikke gammel nok"};
+let arrOldEnough = arrFamous.map(oldEnough => {
+   if (oldEnough.age > 18) {return oldEnough.name + " er gammel nok "};
+   if (oldEnough.age < 18) {return oldEnough.name + " er ikke gammel nok"};
 })
 console.log(arrOldEnough);
 
